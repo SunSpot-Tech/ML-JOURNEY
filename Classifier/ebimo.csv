@@ -1,0 +1,21 @@
+OrderID,CustomerName,Region,ShipMode,OrderDate,ShipDate,DeliveryDays,Weight(kg),Distance(km),ShippingCost,Status
+1001,Alice Johnson,North,Express,1/3/2024,1/5/2024,2,5.2,120,45,Delivered
+1002,Bob Smith,South,Standard,1/4/2024,1/8/2024,4,12,340,30,Delivered
+1003,Carol White,East,Express,1/5/2024,1/7/2024,2,3.1,90,40,Delayed
+1004,David Brown,West,Economy,1/6/2024,1/12/2024,6,20.5,500,20,Delivered
+1005,Eva Green,North,Standard,1/7/2024,1/11/2024,4,8,210,28,Delayed
+1006,Frank Black,South,Express,1/8/2024,1/10/2024,2,6.5,150,43,Delivered
+1007,Grace Lee,East,Economy,1/9/2024,1/15/2024,6,15,420,18,Lost
+1008,Henry Adams,West,Standard,1/10/2024,1/14/2024,4,9.2,270,31,Delivered
+1009,Irene Clark,North,Express,1/11/2024,1/13/2024,2,4,100,42,Delivered
+1010,James Hall,South,Economy,1/12/2024,1/18/2024,6,22,600,17,Delayed
+1011,Karen Young,East,Standard,1/13/2024,1/17/2024,4,7.5,190,29,Delivered
+1012,Leo King,West,Express,1/14/2024,1/16/2024,2,5,130,44,Delivered
+1013,Mia Scott,North,Economy,1/15/2024,1/21/2024,6,18,480,19,Delayed
+1014,Nathan Hill,South,Standard,1/16/2024,1/20/2024,4,11,310,32,Delivered
+1015,Olivia Reed,East,Express,1/17/2024,1/19/2024,2,3.8,85,41,Delivered
+1016,Paul Wright,West,Economy,1/18/2024,1/24/2024,6,25,650,16,Lost
+1017,Quinn Lopez,North,Standard,1/19/2024,1/23/2024,4,9.8,230,30,Delivered
+1018,Rachel Turner,South,Express,1/20/2024,1/22/2024,2,6,140,43,Delayed
+1019,Samuel Harris,East,Economy,1/21/2024,1/27/2024,6,19.5,520,18,Delivered
+1020,Tina Martinez,West,Standard,1/22/2024,1/26/2024,4,8.5,200,29,Delivered
