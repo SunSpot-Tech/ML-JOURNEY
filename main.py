@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
 import pandas as pd
+import os
 
 
 # Initialize API
@@ -13,8 +14,12 @@ app = FastAPI(
 
 
 # Load model
-model = joblib.load("powei_churn_model.pkl")
+model_path = os.path.join(
+    os.path.dirname(__file__),
+    "powei_churn_model.pkl"
+)
 
+model = joblib.load(model_path)
 
 # Input schema
 class Customer(BaseModel):
