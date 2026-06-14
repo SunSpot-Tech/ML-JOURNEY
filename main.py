@@ -1,9 +1,9 @@
-from fastapi import FastAPI
+import os
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import joblib
 import pandas as pd
-import os
-
 
 # Initialize API
 app = FastAPI(
@@ -12,18 +12,29 @@ app = FastAPI(
     version="1.0"
 )
 
-
-# Load model
-model_path = os.path.join(
-    os.path.dirname(__file__),
-    "powei_churn_model.pkl"
+# Enable CORS for frontend integration
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins in production; change to your specific frontend URL later if needed
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
-model = joblib.load(model_path)
+# Robust model loading path logic
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(BASE_DIR, "powei_churn_model.pkl")
 
-# Input schema
+if not os.path.exists(model_path):
+    raise FileNotFoundError(f"Model file not found at expected path: {model_path}")
+
+try:
+    model = joblib.load(model_path)
+except Exception as e:
+    raise RuntimeError(f"Failed to load model file. Error: {str(e)}")
+
+# Input validation schema
 class Customer(BaseModel):
-
     Age: int
     Tenure_Months: int
     Balance: float
@@ -33,52 +44,40 @@ class Customer(BaseModel):
     Complains: int
     Satisfaction_Score: int
 
-
-
 @app.get("/")
 def home():
     return {
-        "message": "Customer Churn API is running"
+        "message": "Customer Churn API is running smoothly",
+        "status": "healthy"
     }
-
-
 
 @app.post("/predict")
 def predict_churn(customer: Customer):
+    try:
+        # Convert Pydantic model directly into a DataFrame
+        data = pd.DataFrame([customer.model_dump()])
+        
+        # Run inference
+        prediction = model.predict(data)[0]
+        probability = model.predict_proba(data)[0][1]
+        
+        # Format human-readable output
+        result = "Customer will churn" if prediction == 1 else "Customer will stay"
+        
+        return {
+            "prediction": int(prediction),
+            "result": result,
+            "churn_probability": round(float(probability), 3)
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=500, 
+            detail=f"An error occurred during prediction: {str(e)}"
+        )
 
-    # convert input to dataframe
-    
-    data = pd.DataFrame([{
-        "Age": customer.Age,
-        "Tenure_Months": customer.Tenure_Months,
-        "Balance": customer.Balance,
-        "NumOfProducts": customer.NumOfProducts,
-        "IsActiveMember": customer.IsActiveMember,
-        "EstimatedSalary": customer.EstimatedSalary,
-        "Complains": customer.Complains,
-        "Satisfaction_Score": customer.Satisfaction_Score
-    }])
-
-
-    # prediction
-    
-    prediction = model.predict(data)[0]
-
-
-    # probability
-    
-    probability = model.predict_proba(data)[0][1]
-
-
-    if prediction == 1:
-        result = "Customer will churn"
-    else:
-        result = "Customer will stay"
-
-
-
-    return {
-        "prediction": int(prediction),
-        "result": result,
-        "churn_probability": round(float(probability),3)
-    }
+# Local running configuration (ignored by Render production runners)
+if __name__ == "__main__":
+    import uvicorn
+    # Pull port from environment variable for deployment flexibility
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=True)
