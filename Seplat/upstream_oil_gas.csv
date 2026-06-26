@@ -1,0 +1,339 @@
+productionid,productiondate,wellid,wellname,welltype,status,fieldname,basin,region,operator,year,quarter,monthnumber,monthname,oilvolumebbl,gasvolumemcf,watervolumebbl,realizedoilprice,operatingcostusd
+100001,1/31/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q1,1,Jan,117234,285727,7483,80.25,493580
+100002,2/28/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q1,2,Feb,108067,290675,8384.5,75.98,393738
+100003,3/31/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q1,3,Mar,120808,337351,11078.5,73.96,245378
+100004,4/30/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q2,4,Apr,104046,337306,11049.1,71.46,442843
+100005,5/31/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q2,5,May,118250,417774,14317.3,73.59,474604
+100006,6/30/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q2,6,Jun,105689,309681,14412.1,75.18,463598
+100007,7/31/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q3,7,Jul,100104,278580,15223.2,78.71,407860
+100008,8/31/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q3,8,Aug,107267,351334,18044.9,74.99,204277
+100009,9/30/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q3,9,Sep,104245,318073,19268,74.29,263236
+100010,10/31/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q4,10,Oct,99599,264428,20111.3,70.06,494633
+100011,11/30/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q4,11,Nov,101363,261458,22250.4,67.53,290256
+100012,12/31/2023,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q4,12,Dec,100778,235206,23947.2,67.58,459413
+100013,1/31/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q1,1,Jan,99521,283809,25505.4,63.31,202504
+100014,2/29/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q1,2,Feb,99341,308034,27369.5,62,424091
+100015,3/31/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q1,3,Mar,87297,261790,25782,63.35,480792
+100016,4/30/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q2,4,Apr,91911,226497,29024.5,63.75,227474
+100017,5/31/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q2,5,May,91699,280458,30893.2,62,433985
+100018,6/30/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q2,6,Jun,85660,267713,30725.9,62.8,303079
+100019,7/31/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q3,7,Jul,91863,225753,35019.6,65.59,347795
+100020,8/31/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q3,8,Aug,86980,308053,35182.9,62,231966
+100021,9/30/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q3,9,Sep,77592,253782,33253.7,64.75,382779
+100022,10/31/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q4,10,Oct,79094,248658,35868.2,66.54,339137
+100023,11/30/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q4,11,Nov,75982,234012,36417.4,65.1,500426
+100024,12/31/2024,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q4,12,Dec,79946,193615,40454.6,62,480828
+100025,1/31/2025,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q1,1,Jan,79369,270085,42362.6,66.11,295660
+100026,2/28/2025,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q1,2,Feb,72457,180218,40757.1,64.64,181103
+100027,3/31/2025,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q1,3,Mar,76198,253703,45136.4,62,510442
+100028,4/30/2025,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q2,4,Apr,75288,226732,46932.8,62,216180
+100029,5/31/2025,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q2,5,May,72381,254239,47455.1,65.13,352605
+100030,6/30/2025,W001,BNG-07,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q2,6,Jun,66324,186428,45709.8,66.06,234927
+100031,1/31/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q1,1,Jan,98676,358554,6298.5,80.25,492288
+100032,2/28/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q1,2,Feb,91587,273196,7105.9,65.59,218035
+100033,3/31/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q1,3,Mar,86420,322172,7925,73.96,454303
+100034,4/30/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q2,4,Apr,82980,216686,8812,71.46,372901
+100035,5/31/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q2,5,May,79139,264946,9581.9,73.59,457448
+100036,6/30/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q2,6,Jun,89521,272955,12207.4,75.18,222759
+100037,7/31/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q3,7,Jul,83581,306765,12710.5,78.71,236143
+100038,8/31/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q3,8,Aug,80221,253490,13495.1,74.99,507883
+100039,9/30/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q3,9,Sep,83642,282952,15459.9,74.29,414555
+100040,10/31/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q4,10,Oct,79318,225936,16016.1,70.06,408374
+100041,11/30/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q4,11,Nov,73648,265090,16166.6,67.53,333505
+100042,12/31/2023,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q4,12,Dec,70696,165856,16799,67.58,187152
+100043,1/31/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q1,1,Jan,72817,228111,18661.6,63.31,182445
+100044,2/29/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q1,2,Feb,73103,170938,20140.6,62,202916
+100045,3/31/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q1,3,Mar,64137,176097,18942,63.35,354813
+100046,4/30/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q2,4,Apr,65540,195186,20696.8,63.75,363340
+100047,5/31/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q2,5,May,68969,246466,23235.5,62,375912
+100048,6/30/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q2,6,Jun,62574,185185,22445,62.8,318400
+100049,7/31/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q3,7,Jul,59801,193664,22797.1,65.59,300461
+100050,8/31/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q3,8,Aug,61782,219064,24990.5,62,198418
+100051,9/30/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q3,9,Sep,62928,202582,26969.1,64.75,200608
+100052,10/31/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q4,10,Oct,62389,215297,28292.7,66.54,217151
+100053,11/30/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q4,11,Nov,56077,171283,26877.1,65.1,227662
+100054,12/31/2024,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q4,12,Dec,54880,161564,27770.6,65.59,477325
+100055,1/31/2025,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q1,1,Jan,52803,182806,28183.2,66.11,471029
+100056,2/28/2025,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q1,2,Feb,51947,167696,29220.2,65.59,363800
+100057,3/31/2025,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q1,3,Mar,50184,119934,29726.8,62,436212
+100058,4/30/2025,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q2,4,Apr,51071,146044,31836.5,62,343662
+100059,5/31/2025,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q2,5,May,55303,199293,36258.3,65.13,235977
+100060,6/30/2025,W002,BNG-09,Oil Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q2,6,Jun,47130,133643,32481.5,66.06,495016
+100061,2/28/2023,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q1,2,Feb,2213.2,230457,171.7,75.98,416841
+100062,3/31/2023,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q1,3,Mar,2114.9,244555,193.9,73.96,405036
+100063,4/30/2023,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q2,4,Apr,1676,222762,178,71.46,254018
+100064,5/31/2023,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q2,5,May,905.3,238152,109.6,73.59,200726
+100065,6/30/2023,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q2,6,Jun,1364.5,213863,186.1,75.18,342108
+100066,7/31/2023,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q3,7,Jul,2454.9,226940,373.3,78.71,199339
+100067,8/31/2023,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q3,8,Aug,1714.1,234699,288.4,74.99,203297
+100068,9/30/2023,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q3,9,Sep,922.3,232677,170.5,74.29,317284
+100069,10/31/2023,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q4,10,Oct,2494.9,221383,503.8,70.06,376832
+100070,11/30/2023,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q4,11,Nov,871.5,204349,191.3,67.53,403507
+100071,12/31/2023,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2023,Q4,12,Dec,1817.4,209357,431.9,67.58,268660
+100072,1/31/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q1,1,Jan,2005.5,207198,514,63.31,270309
+100073,2/29/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q1,2,Feb,1035.6,214895,285.3,62,335456
+100074,3/31/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q1,3,Mar,2472.2,221218,730.1,63.35,183167
+100075,4/30/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q2,4,Apr,1918.1,208234,605.7,63.75,213994
+100076,5/31/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q2,5,May,1767.7,204518,595.5,62,225035
+100077,6/30/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q2,6,Jun,1428.2,190093,512.3,62.8,263057
+100078,7/31/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q3,7,Jul,1313,198550,500.5,65.59,364694
+100079,8/31/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q3,8,Aug,1344.5,211712,543.8,62,454414
+100080,9/30/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q3,9,Sep,1752.1,200911,750.9,64.75,368565
+100081,10/31/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q4,10,Oct,2477.2,183550,1123.4,66.54,478563
+100082,11/30/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q4,11,Nov,1276,202888,611.6,65.1,432422
+100083,12/31/2024,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2024,Q4,12,Dec,1079.8,184648,546.4,62,251614
+100084,1/31/2025,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q1,1,Jan,1417.2,193512,756.4,66.11,469990
+100085,2/28/2025,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q1,2,Feb,1709.7,180173,961.7,64.64,488774
+100086,3/31/2025,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q1,3,Mar,891.4,188285,528,62,461978
+100087,4/30/2025,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q2,4,Apr,879.4,178699,548.2,62,224479
+100088,5/31/2025,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q2,5,May,2563.6,172551,1680.8,65.13,330224
+100089,6/30/2025,W003,BNG-12,Gas Producer,Producing,Bonga,Niger Delta,Offshore Deepwater,Crestmount E&P,2025,Q2,6,Jun,2070.2,180850,1426.8,66.06,218037
+100090,1/31/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q1,1,Jan,144613,475275,9230.6,80.25,230678
+100091,2/28/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q1,2,Feb,123104,345162,9551.2,75.98,367859
+100092,3/31/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q1,3,Mar,129509,299521,11876.4,73.96,303982
+100093,4/30/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q2,4,Apr,137956,511581,14650.2,71.46,193564
+100094,5/31/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q2,5,May,124189,406483,15036.3,73.59,406757
+100095,6/30/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q2,6,Jun,122244,377713,16669.6,75.18,477402
+100096,7/31/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q3,7,Jul,132644,447570,20171.7,78.71,494760
+100097,8/31/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q3,8,Aug,116332,290103,19569.9,74.99,451962
+100098,9/30/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q3,9,Sep,113444,325407,20968.3,74.29,240983
+100099,10/31/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q4,10,Oct,125834,430803,25408.8,70.06,319982
+100100,11/30/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q4,11,Nov,119219,399692,26170,67.53,264377
+100101,12/31/2023,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q4,12,Dec,108089,356901,25684.5,67.58,310064
+100102,1/31/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q1,1,Jan,104297,308306,26729.4,63.31,247855
+100103,2/29/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q1,2,Feb,118345,328347,32605.3,62,458982
+100104,3/31/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q1,3,Mar,115746,299132,34184.1,63.35,404411
+100105,4/30/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q2,4,Apr,105868,282446,33432,63.75,203603
+100106,5/31/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q2,5,May,110638,307211,37273.8,62,353198
+100107,6/30/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q2,6,Jun,107411,377602,38527.9,62.8,292591
+100108,7/31/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q3,7,Jul,95072,338985,36242.9,65.59,268813
+100109,8/31/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q3,8,Aug,102609,382252,41504.8,62,193007
+100110,9/30/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q3,9,Sep,101325,280521,43425,64.75,447386
+100111,10/31/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q4,10,Oct,97286,362522,44118.1,66.54,219320
+100112,11/30/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q4,11,Nov,103001,261120,49367.3,65.1,195091
+100113,12/31/2024,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q4,12,Dec,94385,285975,47761.1,62,454214
+100114,1/31/2025,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q1,1,Jan,96738,354099,51633.2,66.11,430593
+100115,2/28/2025,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q1,2,Feb,88036,255036,49520.2,64.64,502617
+100116,3/31/2025,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q1,3,Mar,97268,309773,57617.4,62,405552
+100117,4/30/2025,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q2,4,Apr,84375,303756,52597.4,62,352422
+100118,5/31/2025,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q2,5,May,90781,248674,59518.7,65.13,417051
+100119,6/30/2025,W005,AGB-04,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q2,6,Jun,87851,222945,60546,66.06,406076
+100120,1/31/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q1,1,Jan,86298,291014,5508.4,80.25,239169
+100121,2/28/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q1,2,Feb,87016,248789,6751.2,75.98,463467
+100122,3/31/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q1,3,Mar,81529,209144,7476.5,73.96,447158
+100123,4/30/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q2,4,Apr,83724,228849,8891,71.46,330207
+100124,5/31/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q2,5,May,82770,249697,10021.5,73.59,449870
+100125,6/30/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q2,6,Jun,84530,283509,11526.8,75.18,404009
+100126,7/31/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q3,7,Jul,74341,241295,11305.3,78.71,390549
+100127,8/31/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q3,8,Aug,70411,258972,11844.8,74.99,259855
+100128,9/30/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q3,9,Sep,71419,247099,13200.7,74.29,230100
+100129,10/31/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q4,10,Oct,66803,248902,13489.1,70.06,387833
+100130,11/30/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q4,11,Nov,73475,215511,16128.7,67.53,481287
+100131,12/31/2023,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q4,12,Dec,69733,232038,16570.2,67.58,310553
+100132,1/31/2024,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q1,1,Jan,66301,163853,16991.7,63.31,413792
+100133,2/29/2024,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q1,2,Feb,70041,247991,19297,62,481058
+100134,3/31/2024,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q1,3,Mar,67322,173574,19882.7,63.35,453397
+100135,4/30/2024,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q2,4,Apr,65008,191567,20528.8,63.75,369518
+100136,5/31/2024,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q2,5,May,65764,159941,22155.8,62,225335
+100137,6/30/2024,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q2,6,Jun,59949,182646,21503.4,62.8,370035
+100138,7/31/2024,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q3,7,Jul,57240,193636,21820.8,65.59,330475
+100139,8/31/2024,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q3,8,Aug,60573,217338,24501.4,62,325092
+100140,9/30/2024,W006,AGB-08,Oil Producer,Shut-in,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q3,9,Sep,60069,175334,25743.9,64.75,234114
+100141,8/31/2023,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q3,8,Aug,73881,216110,12428.6,74.99,435604
+100142,9/30/2023,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q3,9,Sep,72755,193962,13447.6,74.29,444409
+100143,10/31/2023,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q4,10,Oct,68007,177421,13732.2,70.06,329557
+100144,11/30/2023,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q4,11,Nov,69658,181232,15290.8,67.53,294188
+100145,12/31/2023,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2023,Q4,12,Dec,70734,167701,16808.1,67.58,231282
+100146,1/31/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q1,1,Jan,64520,159958,16535.3,63.31,252744
+100147,2/29/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q1,2,Feb,64076,175973,17653.6,62,338414
+100148,3/31/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q1,3,Mar,59687,208865,17627.8,63.35,312422
+100149,4/30/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q2,4,Apr,66149,242707,20889.2,63.75,186641
+100150,5/31/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q2,5,May,66466,206944,22392.3,62,342173
+100151,6/30/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q2,6,Jun,66284,178829,23775.8,62.8,312595
+100152,7/31/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q3,7,Jul,64988,227692,24774.4,65.59,362995
+100153,8/31/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q3,8,Aug,62690,216268,25357.8,62,485256
+100154,9/30/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q3,9,Sep,59585,158461,25536.4,64.75,345118
+100155,10/31/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q4,10,Oct,57932,188471,26271.5,66.54,451368
+100156,11/30/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q4,11,Nov,60363,211920,28931.4,65.1,492644
+100157,12/31/2024,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2024,Q4,12,Dec,62002,189180,31374.5,62,488356
+100158,1/31/2025,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q1,1,Jan,57719,187269,30807.1,66.11,208542
+100159,2/28/2025,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q1,2,Feb,55558,197246,31251.4,64.64,241788
+100160,3/31/2025,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q1,3,Mar,53395,146357,31628.9,62,334598
+100161,4/30/2025,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q2,4,Apr,53433,190727,33308.9,62,274607
+100162,5/31/2025,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q2,5,May,58114,167505,38101.2,65.13,463870
+100163,6/30/2025,W007,AGB-11,Oil Producer,Producing,Agbami,Niger Delta,Offshore Deepwater,Star Deep Energy,2025,Q2,6,Jun,53296,179796,36731,66.06,197709
+100164,1/31/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q1,1,Jan,57905,149762,3696.1,80.25,203330
+100165,2/28/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q1,2,Feb,56212,129871,4361.3,65.59,190550
+100166,3/31/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q1,3,Mar,48754,171070,4470.9,73.96,391254
+100167,4/30/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q2,4,Apr,47223,139796,5014.8,71.46,218892
+100168,5/31/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q2,5,May,51231,151006,6202.9,73.59,267123
+100169,6/30/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q2,6,Jun,45399,143408,6190.8,75.18,507670
+100170,7/31/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q3,7,Jul,46552,159054,7079.3,78.71,235680
+100171,8/31/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q3,8,Aug,42312,131930,7117.9,74.99,495822
+100172,9/30/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q3,9,Sep,42835,154722,7917.4,74.29,307604
+100173,10/31/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q4,10,Oct,43952,111967,8874.9,70.06,381313
+100174,11/30/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q4,11,Nov,41927,109609,9203.5,67.53,417046
+100175,12/31/2023,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q4,12,Dec,37400,122537,8887.1,67.58,453880
+100176,1/31/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q1,1,Jan,39243,121610,10057.3,63.31,193964
+100177,2/29/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q1,2,Feb,36534,118454,10065.5,62,203445
+100178,3/31/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q1,3,Mar,36085,81876,10657.2,63.35,322820
+100179,4/30/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q2,4,Apr,34142,99022,10781.7,63.75,303144
+100180,5/31/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q2,5,May,35248,103615,11875,62,232017
+100181,6/30/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q2,6,Jun,30507,92516,10942.7,62.8,401156
+100182,7/31/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q3,7,Jul,31788,115372,12118.1,65.59,443378
+100183,8/31/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q3,8,Aug,30103,105017,12176.5,62,381441
+100184,9/30/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q3,9,Sep,28530,74698,12227.1,64.75,497771
+100185,10/31/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q4,10,Oct,27476,80400,12460,66.54,435162
+100186,11/30/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q4,11,Nov,27938,90862,13390.4,65.1,294375
+100187,12/31/2024,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q4,12,Dec,26776,73300,13549.3,65.59,345767
+100188,1/31/2025,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2025,Q1,1,Jan,25393,66975,13553.3,66.11,275084
+100189,2/28/2025,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2025,Q1,2,Feb,25605,91414,14402.8,65.59,368969
+100190,3/31/2025,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2025,Q1,3,Mar,24525,62210,14527.5,62,262061
+100191,4/30/2025,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2025,Q2,4,Apr,23371,72047,14568.9,62,261710
+100192,5/31/2025,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2025,Q2,5,May,22927,76066,15031.6,65.13,332379
+100193,6/30/2025,W008,FCD-21,Oil Producer,Producing,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2025,Q2,6,Jun,20600,55442,14197.3,66.06,317496
+100194,1/31/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q1,1,Jan,39316,127617,2509.5,80.25,305467
+100195,2/28/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q1,2,Feb,39490,109215,3063.9,75.98,518855
+100196,3/31/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q1,3,Mar,37694,104703,3456.7,73.96,334273
+100197,4/30/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q2,4,Apr,34605,89828,3674.9,71.46,425237
+100198,5/31/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q2,5,May,33097,111349,4007.3,73.59,503298
+100199,6/30/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q2,6,Jun,33560,85152,4576.4,75.18,431126
+100200,7/31/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q3,7,Jul,29991,94003,4560.8,78.71,438471
+100201,8/31/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q3,8,Aug,30163,112229,5074.1,74.99,463094
+100202,9/30/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q3,9,Sep,27442,76599,5072.2,74.29,282771
+100203,10/31/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q4,10,Oct,27992,68297,5652.2,70.06,195475
+100204,11/30/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q4,11,Nov,24027,64590,5274.2,67.53,500990
+100205,12/31/2023,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2023,Q4,12,Dec,25252,85331,6000.5,67.58,214880
+100206,1/31/2024,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q1,1,Jan,21754,58225,5575.1,63.31,342763
+100207,2/29/2024,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q1,2,Feb,21959,81210,6049.9,62,265843
+100208,3/31/2024,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q1,3,Mar,22765,55117,6723.3,63.35,202217
+100209,4/30/2024,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q2,4,Apr,20524,63943,6481.3,63.75,413393
+100210,5/31/2024,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q2,5,May,18533,64249,6243.7,62,502703
+100211,6/30/2024,W009,FCD-25,Oil Producer,Plugged & Abandoned,Forcados Yokri,Niger Delta,Onshore,Delta Petroleum,2024,Q2,6,Jun,17499,45887,6276.8,62.8,369745
+100212,1/31/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q1,1,Jan,100632,316406,6423.3,80.25,390262
+100213,2/28/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q1,2,Feb,104795,295581,8130.6,75.98,488891
+100214,3/31/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q1,3,Mar,95560,299369,8763.1,73.96,325802
+100215,4/30/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q2,4,Apr,98249,229937,10433.5,71.46,506437
+100216,5/31/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q2,5,May,89495,303755,10835.7,73.59,392675
+100217,6/30/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q2,6,Jun,90554,214774,12348.3,75.18,261554
+100218,7/31/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q3,7,Jul,93362,231986,14197.9,78.71,318896
+100219,8/31/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q3,8,Aug,93871,277376,15791.4,74.99,191098
+100220,9/30/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q3,9,Sep,86613,231610,16009,74.29,472266
+100221,10/31/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q4,10,Oct,82165,213640,16591,70.06,269949
+100222,11/30/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q4,11,Nov,90851,284789,19942.9,67.53,453328
+100223,12/31/2023,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q4,12,Dec,81288,196893,19316,67.58,256435
+100224,1/31/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q1,1,Jan,79330,210101,20330.8,63.31,228360
+100225,2/29/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q1,2,Feb,76879,264382,21180.9,62,382315
+100226,3/31/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q1,3,Mar,85605,310899,25282.3,63.35,329312
+100227,4/30/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q2,4,Apr,79679,215622,25161.8,63.75,316853
+100228,5/31/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q2,5,May,75928,232338,25580,62,328838
+100229,6/30/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q2,6,Jun,78755,282268,28249.1,62.8,429742
+100230,7/31/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q3,7,Jul,77564,177528,29568.6,65.59,257834
+100231,8/31/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q3,8,Aug,77171,273245,31215.2,62,379622
+100232,9/30/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q3,9,Sep,68211,231722,29233.3,64.75,459283
+100233,10/31/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q4,10,Oct,73581,249783,33368.1,66.54,239565
+100234,11/30/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q4,11,Nov,71748,209027,34388.1,65.1,274573
+100235,12/31/2024,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q4,12,Dec,75983,220642,38449.2,62,456843
+100236,1/31/2025,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q1,1,Jan,74458,220025,39741.4,66.11,318838
+100237,2/28/2025,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q1,2,Feb,66201,159339,37238.1,64.64,234680
+100238,3/31/2025,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q1,3,Mar,66113,197890,39162.5,62,405278
+100239,4/30/2025,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q2,4,Apr,64937,220185,40480.2,62,192477
+100240,5/31/2025,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q2,5,May,60653,159432,39765.9,65.13,219413
+100241,6/30/2025,W011,EGN-02,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q2,6,Jun,66680,236538,45955.1,66.06,460475
+100242,11/30/2023,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q4,11,Nov,68505,243470,15037.7,67.53,337072
+100243,12/31/2023,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q4,12,Dec,68307,206810,16231.4,67.58,391696
+100244,1/31/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q1,1,Jan,72654,211646,18619.9,63.31,197548
+100245,2/29/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q1,2,Feb,69123,169111,19044.1,62,277930
+100246,3/31/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q1,3,Mar,75260,224054,22227,63.35,189816
+100247,4/30/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q2,4,Apr,71544,246753,22592.8,63.75,421326
+100248,5/31/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q2,5,May,67149,152463,22622.4,62,318717
+100249,6/30/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q2,6,Jun,65401,229695,23459.1,62.8,218577
+100250,7/31/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q3,7,Jul,72428,233331,27610.7,65.59,232350
+100251,8/31/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q3,8,Aug,71405,191922,28882.9,62,419840
+100252,9/30/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q3,9,Sep,65089,193558,27895.3,64.75,340555
+100253,10/31/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q4,10,Oct,64738,159706,29357.9,66.54,244808
+100254,11/30/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q4,11,Nov,65431,220466,31360.4,65.1,226413
+100255,12/31/2024,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q4,12,Dec,59254,201998,29984,62,470500
+100256,1/31/2025,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q1,1,Jan,61260,210218,32697.1,66.11,270839
+100257,2/28/2025,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q1,2,Feb,57172,190902,32159.2,64.64,464742
+100258,3/31/2025,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q1,3,Mar,62155,201377,36817.9,62,474189
+100259,4/30/2025,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q2,4,Apr,60116,178936,37474.9,62,293030
+100260,5/31/2025,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q2,5,May,62426,175780,40928.3,65.13,497170
+100261,6/30/2025,W012,EGN-05,Oil Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q2,6,Jun,62688,233272,43203.9,66.06,261194
+100262,4/30/2023,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q2,4,Apr,1489.3,315785,158.2,71.46,319664
+100263,5/31/2023,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q2,5,May,1372.7,296658,166.2,73.59,490566
+100264,6/30/2023,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q2,6,Jun,1486.2,314965,202.7,75.18,449414
+100265,7/31/2023,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q3,7,Jul,1973.6,277644,300.1,78.71,508040
+100266,8/31/2023,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q3,8,Aug,1027.2,307765,172.8,74.99,292878
+100267,9/30/2023,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q3,9,Sep,980.7,299869,181.3,74.29,213902
+100268,10/31/2023,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q4,10,Oct,2438.8,263976,492.4,70.06,229013
+100269,11/30/2023,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q4,11,Nov,2367.7,298804,519.7,67.53,205442
+100270,12/31/2023,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2023,Q4,12,Dec,2206.7,268424,524.4,67.58,391908
+100271,1/31/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q1,1,Jan,1515.5,258634,388.4,63.31,291712
+100272,2/29/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q1,2,Feb,2013.8,273312,554.8,62,504407
+100273,3/31/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q1,3,Mar,1928.2,283919,569.5,63.35,345902
+100274,4/30/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q2,4,Apr,1773.8,271002,560.1,63.75,259822
+100275,5/31/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q2,5,May,2031.9,256095,684.5,62,257345
+100276,6/30/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q2,6,Jun,962.7,278812,345.3,62.8,438526
+100277,7/31/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q3,7,Jul,2067,244230,788,65.59,236564
+100278,8/31/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q3,8,Aug,1339,239222,541.6,62,290287
+100279,9/30/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q3,9,Sep,901,248527,386.1,64.75,326434
+100280,10/31/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q4,10,Oct,1239.6,247925,562.1,66.54,411812
+100281,11/30/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q4,11,Nov,1124.1,237201,538.8,65.1,387227
+100282,12/31/2024,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2024,Q4,12,Dec,1488.6,252328,753.3,62,349207
+100283,1/31/2025,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q1,1,Jan,1849.7,234428,987.3,66.11,396888
+100284,2/28/2025,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q1,2,Feb,1627.2,246757,915.3,64.64,485629
+100285,3/31/2025,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q1,3,Mar,1637.5,231616,970,62,365843
+100286,4/30/2025,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q2,4,Apr,933,251057,581.6,62,515802
+100287,5/31/2025,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q2,5,May,1338.5,249097,877.6,65.13,414707
+100288,6/30/2025,W013,EGN-G1,Gas Producer,Producing,Egina,Niger Delta,Offshore Deepwater,Aurora Upstream,2025,Q2,6,Jun,1622.3,225207,1118.1,66.06,519787
+100289,1/31/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q1,1,Jan,64449,155321,4113.8,80.25,309664
+100290,2/28/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q1,2,Feb,58133,156599,4510.3,65.59,417755
+100291,3/31/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q1,3,Mar,53553,187171,4911,73.96,314574
+100292,4/30/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q2,4,Apr,52089,184791,5531.6,71.46,444626
+100293,5/31/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q2,5,May,59302,214432,7180.1,73.59,433359
+100294,6/30/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q2,6,Jun,56609,204042,7719.4,75.18,443752
+100295,7/31/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q3,7,Jul,50140,173128,7625,78.71,254462
+100296,8/31/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q3,8,Aug,48560,127516,8169,74.99,436896
+100297,9/30/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q3,9,Sep,51948,169937,9601.8,74.29,226505
+100298,10/31/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q4,10,Oct,45440,145008,9175.4,70.06,193404
+100299,11/30/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q4,11,Nov,49543,113951,10875.3,67.53,304053
+100300,12/31/2023,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q4,12,Dec,43449,157044,10324.5,67.58,291085
+100301,1/31/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q1,1,Jan,44409,113296,11381.2,63.31,447414
+100302,2/29/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q1,2,Feb,46536,130244,12821.1,62,350610
+100303,3/31/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q1,3,Mar,41238,102964,12179.1,63.35,490777
+100304,4/30/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q2,4,Apr,44691,165405,14112.9,63.75,280348
+100305,5/31/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q2,5,May,43093,148944,14518,62,339233
+100306,6/30/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q2,6,Jun,36970,125004,13261,62.8,256709
+100307,7/31/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q3,7,Jul,39764,129695,15158.7,65.59,315120
+100308,8/31/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q3,8,Aug,39793,122800,16096,62,210703
+100309,9/30/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q3,9,Sep,36144,95662,15490.3,64.75,222020
+100310,10/31/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q4,10,Oct,35091,118380,15913.4,66.54,269135
+100311,11/30/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q4,11,Nov,34283,109974,16431.5,65.1,306301
+100312,12/31/2024,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q4,12,Dec,35028,103585,17725,65.59,390646
+100313,1/31/2025,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2025,Q1,1,Jan,35579,97558,18990,66.11,387428
+100314,2/28/2025,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2025,Q1,2,Feb,33158,106209,18651.4,65.59,337851
+100315,3/31/2025,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2025,Q1,3,Mar,32599,105095,19310.2,62,219670
+100316,4/30/2025,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2025,Q2,4,Apr,28553,65838,17799.3,62,518615
+100317,5/31/2025,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2025,Q2,5,May,28179,73327,18475,65.13,362766
+100318,6/30/2025,W014,OBN-14,Oil Producer,Producing,Oben,Niger Delta,Onshore,Seplat-like NPDC,2025,Q2,6,Jun,28751,80690,19814.9,66.06,502789
+100319,2/28/2023,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q1,2,Feb,47120,144201,3655.9,75.98,379696
+100320,3/31/2023,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q1,3,Mar,46015,164647,4219.7,73.96,402673
+100321,4/30/2023,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q2,4,Apr,45466,144285,4828.2,71.46,499278
+100322,5/31/2023,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q2,5,May,40475,132977,4900.6,73.59,253872
+100323,6/30/2023,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q2,6,Jun,40417,105253,5511.4,75.18,303313
+100324,7/31/2023,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q3,7,Jul,42686,119564,6491.4,78.71,486577
+100325,8/31/2023,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q3,8,Aug,39419,92273,6631.2,74.99,273800
+100326,9/30/2023,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q3,9,Sep,40253,147870,7440.1,74.29,460225
+100327,10/31/2023,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q4,10,Oct,34021,87371,6869.6,70.06,397428
+100328,11/30/2023,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q4,11,Nov,38047,88492,8351.8,67.53,293393
+100329,12/31/2023,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2023,Q4,12,Dec,37079,127198,8810.9,67.58,249770
+100330,1/31/2024,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q1,1,Jan,35191,108434,9018.8,63.31,379370
+100331,2/29/2024,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q1,2,Feb,34118,88690,9399.9,62,443285
+100332,3/31/2024,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q1,3,Mar,33039,103874,9757.6,63.35,274273
+100333,4/30/2024,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q2,4,Apr,33074,123409,10444.4,63.75,363673
+100334,5/31/2024,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q2,5,May,31262,75494,10532.1,62,474592
+100335,6/30/2024,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q2,6,Jun,27293,76076,9789.9,62.8,448067
+100336,7/31/2024,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q3,7,Jul,28590,65004,10899,65.59,270225
+100337,8/31/2024,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q3,8,Aug,25764,74237,10421.4,62,218641
+100338,9/30/2024,W015,OBN-17,Oil Producer,Shut-in,Oben,Niger Delta,Onshore,Seplat-like NPDC,2024,Q3,9,Sep,24773,72397,10617,64.75,303093
