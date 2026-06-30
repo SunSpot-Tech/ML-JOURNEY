@@ -1,10 +1,194 @@
 import streamlit as st
 import requests
+import os
+import csv
+from datetime import datetime, timezone
+import pandas as pd
+import gspread
+from google.oauth2.service_account import Credentials
 
 # ---------------------------------------------------------------------------
 # CONFIG
 # ---------------------------------------------------------------------------
 API_BASE_URL = "https://soccer-prediction-api-w74s.onrender.com"
+
+# ---------------------------------------------------------------------------
+# Data logging config (for future retraining / drift monitoring)
+# ---------------------------------------------------------------------------
+# Primary store: a Google Sheet (persists across redeploys/restarts).
+# Fallback store: local CSV, used only if the Sheets write fails so a
+# prediction is never silently lost.
+SHEET_NAME = "soccer_prediction_log"   # the Google Sheet's title
+WORKSHEET_NAME = "predictions"          # the tab within that sheet
+
+DATA_DIR = "prediction_logs"
+LOG_PATH = os.path.join(DATA_DIR, "prediction_log.csv")
+
+# Columns: raw model inputs + model outputs + metadata.
+# `actual_result` is left blank at prediction time and can be back-filled
+# later (e.g. once the real match result is known) to build a labeled
+# dataset for retraining.
+LOG_COLUMNS = [
+    "timestamp_utc",
+    "home_country",
+    "away_country",
+    "home_form_5g",
+    "away_form_5g",
+    "home_xg",
+    "away_xg",
+    "home_xga",
+    "away_xga",
+    "home_xt",
+    "away_xt",
+    "home_sot",
+    "away_sot",
+    "home_attack_strength",
+    "away_attack_strength",
+    "home_defense_strength",
+    "away_defense_strength",
+    "rest_days_home",
+    "rest_days_away",
+    "travel_distance_away_km",
+    "h2h_home_win_ratio",
+    "missing_key_players_home",
+    "missing_key_players_away",
+    "referee_card_rate",
+    "predicted_outcome",
+    "prob_home_win",
+    "prob_draw",
+    "prob_away_win",
+    "confidence",
+    "actual_result",  # to be filled in later for retraining/drift checks
+]
+
+
+def init_log_file():
+    """Create the local CSV fallback file with a header row if it doesn't exist yet."""
+    os.makedirs(DATA_DIR, exist_ok=True)
+    if not os.path.isfile(LOG_PATH):
+        with open(LOG_PATH, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=LOG_COLUMNS)
+            writer.writeheader()
+
+
+def log_prediction_to_csv(row: dict):
+    """Append one row to the local CSV fallback."""
+    init_log_file()
+    with open(LOG_PATH, "a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=LOG_COLUMNS)
+        writer.writerow(row)
+
+
+@st.cache_resource(show_spinner=False)
+def get_sheets_worksheet():
+    """
+    Authenticate to Google Sheets with a service account and return the
+    target worksheet, creating the sheet/tab/header if they don't exist yet.
+
+    Expects credentials in st.secrets["gcp_service_account"] (the JSON key
+    downloaded from Google Cloud Console for the service account), e.g. in
+    .streamlit/secrets.toml:
+
+        [gcp_service_account]
+        type = "service_account"
+        project_id = "..."
+        private_key_id = "..."
+        private_key = "-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
+        client_email = "...@....iam.gserviceaccount.com"
+        client_id = "..."
+        token_uri = "https://oauth2.googleapis.com/token"
+
+    The Sheet itself must be shared (Editor access) with that
+    client_email, or this will raise a permissions error.
+    """
+    scopes = [
+        "https://www.googleapis.com/auth/spreadsheets",
+        "https://www.googleapis.com/auth/drive",
+    ]
+    creds = Credentials.from_service_account_info(
+        st.secrets["gcp_service_account"], scopes=scopes
+    )
+    client = gspread.authorize(creds)
+
+    try:
+        sheet = client.open(SHEET_NAME)
+    except gspread.SpreadsheetNotFound:
+        sheet = client.create(SHEET_NAME)
+
+    try:
+        worksheet = sheet.worksheet(WORKSHEET_NAME)
+    except gspread.WorksheetNotFound:
+        worksheet = sheet.add_worksheet(
+            title=WORKSHEET_NAME, rows=1000, cols=len(LOG_COLUMNS)
+        )
+        worksheet.append_row(LOG_COLUMNS)
+
+    # Make sure the header row exists (e.g. worksheet existed but was empty).
+    if worksheet.row_count == 0 or not worksheet.row_values(1):
+        worksheet.append_row(LOG_COLUMNS)
+
+    return worksheet
+
+
+def log_prediction_to_sheets(row: dict):
+    """Append one row to the Google Sheet, in LOG_COLUMNS order."""
+    worksheet = get_sheets_worksheet()
+    worksheet.append_row([row.get(col, "") for col in LOG_COLUMNS])
+
+
+def log_prediction(payload: dict, home_country: str, away_country: str, data: dict):
+    """
+    Record one prediction (inputs + outputs) for future retraining.
+    Tries Google Sheets first (persistent across redeploys); if that fails
+    for any reason, falls back to the local CSV so the prediction is never
+    silently lost.
+    """
+    probs = data.get("probabilities", {})
+    row = {
+        "timestamp_utc": datetime.now(timezone.utc).isoformat(),
+        "home_country": home_country,
+        "away_country": away_country,
+        "home_form_5g": payload["home_form_5g"],
+        "away_form_5g": payload["away_form_5g"],
+        "home_xg": payload["home_xg"],
+        "away_xg": payload["away_xg"],
+        "home_xga": payload["home_xga"],
+        "away_xga": payload["away_xga"],
+        "home_xt": payload["home_xt"],
+        "away_xt": payload["away_xt"],
+        "home_sot": payload["home_sot"],
+        "away_sot": payload["away_sot"],
+        "home_attack_strength": payload["home_attack_strength"],
+        "away_attack_strength": payload["away_attack_strength"],
+        "home_defense_strength": payload["home_defense_strength"],
+        "away_defense_strength": payload["away_defense_strength"],
+        "rest_days_home": payload["rest_days_home"],
+        "rest_days_away": payload["rest_days_away"],
+        "travel_distance_away_km": payload["travel_distance_away_km"],
+        "h2h_home_win_ratio": payload["h2h_home_win_ratio"],
+        "missing_key_players_home": payload["missing_key_players_home"],
+        "missing_key_players_away": payload["missing_key_players_away"],
+        "referee_card_rate": payload["referee_card_rate"],
+        "predicted_outcome": data.get("prediction"),
+        "prob_home_win": probs.get("Home Win"),
+        "prob_draw": probs.get("Draw"),
+        "prob_away_win": probs.get("Away Win"),
+        "confidence": data.get("confidence"),
+        "actual_result": "",  # filled in later once the real outcome is known
+    }
+
+    if "gcp_service_account" in st.secrets:
+        try:
+            log_prediction_to_sheets(row)
+            return "sheets"
+        except Exception as sheets_err:
+            st.warning(
+                f"Couldn't write to Google Sheets ({sheets_err}); "
+                "saved to local CSV instead."
+            )
+
+    log_prediction_to_csv(row)
+    return "csv"
 
 st.set_page_config(
     page_title="Soccer Match Predictor",
@@ -99,8 +283,8 @@ except Exception:
 # ---------------------------------------------------------------------------
 # Input form
 # ---------------------------------------------------------------------------
-home_country = st.text_input("Home Country Name", "Nigeria")
-away_country = st.text_input("Away Country Name", "Ghana")
+home_country = st.text_input("Home Team / Country Name", "Nigeria")
+away_country = st.text_input("Away Team / Country Name", "Ghana")
 col_home, col_away = st.columns(2, gap="large")
 
 with col_home:
@@ -180,14 +364,29 @@ if predict_btn:
             probs      = data["probabilities"]
             confidence = data["confidence"]
 
+            # Persist this prediction (inputs + outputs) to CSV for future
+            # retraining / drift monitoring. Failures here should never
+            # break the user-facing prediction flow, so they're caught
+            # and surfaced as a small warning only.
+            try:
+                log_prediction(payload, home_country, away_country, data)
+            except Exception as log_err:
+                st.warning(f"Prediction succeeded, but logging to CSV failed: {log_err}")
+
             display_label = {
                 "Home Win": f"{home_country} Win",
-                "Draw":     "Draw",
+                "Draw": "Draw",
                 "Away Win": f"{away_country} Win",
             }.get(prediction, prediction)
 
+            result_class = {
+                "Home Win": "result-home",
+                "Draw": "result-draw",
+                "Away Win": "result-away",
+            }.get(prediction, "")
+
             st.markdown(f"""
-            <div class="result-box {display_label}">
+            <div class="result-box {result_class}">
                 <div class="result-label">Predicted Outcome</div>
                 <div class="result-value">{display_label}</div>
                 <div class="result-conf">Confidence: {confidence*100:.1f}%</div>
@@ -218,6 +417,91 @@ if predict_btn:
             st.error(f"API error: {e.response.status_code} — {e.response.text}")
         except Exception as e:
             st.error(f"Unexpected error: {e}")
+
+# ---------------------------------------------------------------------------
+# Prediction log, download & back-fill
+# ---------------------------------------------------------------------------
+st.markdown("---")
+st.markdown("### 📥 Prediction Log & Download")
+
+using_sheets = "gcp_service_account" in st.secrets
+data_source = st.radio(
+    "Select data source:",
+    options=["Google Sheets (Live Cloud Data)", "Local CSV Fallback"],
+    horizontal=True,
+)
+
+log_df = None
+
+if data_source == "Google Sheets (Live Cloud Data)":
+    if using_sheets:
+        try:
+            worksheet = get_sheets_worksheet()
+            records = worksheet.get_all_records()
+            log_df = pd.DataFrame(records) if records else pd.DataFrame(columns=LOG_COLUMNS)
+        except Exception as e:
+            st.error(f"Could not read from Google Sheets: {e}")
+    else:
+        st.warning("Google Sheets not configured — showing local CSV instead.")
+        if os.path.isfile(LOG_PATH):
+            try:
+                log_df = pd.read_csv(LOG_PATH)
+            except Exception as e:
+                st.error(f"Could not read local CSV: {e}")
+else:
+    if os.path.isfile(LOG_PATH):
+        try:
+            log_df = pd.read_csv(LOG_PATH)
+        except Exception as e:
+            st.error(f"Could not read local CSV: {e}")
+
+if log_df is None:
+    log_df = pd.DataFrame(columns=LOG_COLUMNS)
+
+# ---- Download button FIRST — always visible ----
+csv_bytes = log_df.to_csv(index=False).encode("utf-8")
+st.download_button(
+    label="📥 Download Prediction Log as CSV",
+    data=csv_bytes,
+    file_name=f"soccer_predictions_{datetime.now().strftime('%Y%m%d')}.csv",
+    mime="text/csv",
+    use_container_width=True,
+)
+
+# ---- Preview below ----
+if log_df.empty:
+    st.info("No predictions logged yet — the downloaded CSV contains only column headers.")
+else:
+    st.caption(f"{len(log_df)} predictions logged.")
+    st.dataframe(log_df.tail(10), use_container_width=True)
+
+    # Back-fill actual result
+    st.markdown("##### ✏️ Back-fill an actual match result")
+    st.caption("Once a real result is known, record it here to build a labeled dataset for retraining.")
+    row_options = (
+        log_df["timestamp_utc"].astype(str)
+        + " — " + log_df["home_country"].astype(str)
+        + " vs " + log_df["away_country"].astype(str)
+    )
+    sel = st.selectbox("Select prediction to label", options=row_options.tolist()[::-1])
+    actual = st.selectbox("Actual result", ["", "Home Win", "Draw", "Away Win"])
+    if st.button("Save actual result"):
+        if actual == "":
+            st.warning("Pick an actual result before saving.")
+        else:
+            sel_ts = sel.split(" — ")[0]
+            try:
+                if using_sheets and data_source == "Google Sheets (Live Cloud Data)":
+                    worksheet = get_sheets_worksheet()
+                    cell = worksheet.find(sel_ts)
+                    col_idx = LOG_COLUMNS.index("actual_result") + 1
+                    worksheet.update_cell(cell.row, col_idx, actual)
+                else:
+                    log_df.loc[log_df["timestamp_utc"] == sel_ts, "actual_result"] = actual
+                    log_df.to_csv(LOG_PATH, index=False)
+                st.success("Saved. Re-select your data source above to see the update.")
+            except Exception as e:
+                st.error(f"Couldn't save the actual result: {e}")
 
 # ---------------------------------------------------------------------------
 # Footer
