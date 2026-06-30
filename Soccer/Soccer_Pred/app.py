@@ -99,10 +99,12 @@ except Exception:
 # ---------------------------------------------------------------------------
 # Input form
 # ---------------------------------------------------------------------------
+home_country = st.text_input("Home Country Name", "Nigeria")
+away_country = st.text_input("Away Country Name", "Ghana")
 col_home, col_away = st.columns(2, gap="large")
 
 with col_home:
-    st.markdown('<div class="team-card"><div class="team-label home-label">🏠 Home Team</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="team-card"><div class="team-label home-label">🏠 {home_country}</div>', unsafe_allow_html=True)
     home_form    = st.slider("Form (last 5 games)", 0.0, 1.0, 0.67, 0.01, key="hf")
     home_xg      = st.number_input("xG (Expected Goals)", 0.0, 10.0, 1.73, 0.01, key="hxg")
     home_xga     = st.number_input("xGA (Expected Goals Against)", 0.0, 10.0, 1.3, 0.01, key="hxga")
@@ -115,7 +117,7 @@ with col_home:
     st.markdown('</div>', unsafe_allow_html=True)
 
 with col_away:
-    st.markdown('<div class="team-card"><div class="team-label away-label">✈️ Away Team</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="team-card"><div class="team-label away-label">✈️ {away_country}</div>', unsafe_allow_html=True)
     away_form    = st.slider("Form (last 5 games)", 0.0, 1.0, 0.73, 0.01, key="af")
     away_xg      = st.number_input("xG (Expected Goals)", 0.0, 10.0, 2.03, 0.01, key="axg")
     away_xga     = st.number_input("xGA (Expected Goals Against)", 0.0, 10.0, 1.0, 0.01, key="axga")
@@ -178,27 +180,28 @@ if predict_btn:
             probs      = data["probabilities"]
             confidence = data["confidence"]
 
-            css_class = {
-                "Home Win": "result-home",
-                "Draw":     "result-draw",
-                "Away Win": "result-away",
-            }.get(prediction, "result-draw")
+            display_label = {
+                "Home Win": f"{home_country} Win",
+                "Draw":     "Draw",
+                "Away Win": f"{away_country} Win",
+            }.get(prediction, prediction)
 
             st.markdown(f"""
-            <div class="result-box {css_class}">
+            <div class="result-box {display_label}">
                 <div class="result-label">Predicted Outcome</div>
-                <div class="result-value">{prediction}</div>
+                <div class="result-value">{display_label}</div>
                 <div class="result-conf">Confidence: {confidence*100:.1f}%</div>
             </div>
             """, unsafe_allow_html=True)
 
             bar_colors = {"Home Win": "#38bdf8", "Draw": "#a8a29e", "Away Win": "#fb923c"}
+            outcome_labels = {"Home Win": home_country, "Draw": "Draw", "Away Win": away_country}
             bars_html = '<div class="prob-bar-wrap">'
             for outcome, pct in probs.items():
                 color = bar_colors.get(outcome, "#64748b")
                 bars_html += f"""
                 <div class="prob-row">
-                    <div class="prob-name">{outcome}</div>
+                    <div class="prob-name">{outcome_labels.get(outcome, outcome)}</div>
                     <div class="prob-bar-bg">
                         <div class="prob-bar-fill" style="width:{pct*100:.1f}%;background:{color};"></div>
                     </div>
