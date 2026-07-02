@@ -354,7 +354,7 @@ if not log_df.empty:
         + " vs " + log_df["away_country"].astype(str)
     )
     sel_idx = st.selectbox("Select match", options=range(len(match_options)), format_func=lambda i: match_options.iloc[i])
-    actual = st.selectbox("Actual result", ["", 0, 1, 2], format_func=lambda x: {0: "0 - Home Win", 1: "1 - Draw", 2: "2 - Away Win"}.get(x, "Select..."))
+    actual = st.selectbox("Actual result", ["", "0", "1", "2"], format_func=lambda x: {"0": "0 - Home Win", "1": "1 - Draw", "2": "2 - Away Win"}.get(x, "Select..."))
     if st.button("Save actual result"):
         if actual == "":
             st.warning("Pick an actual result before saving.")
@@ -364,9 +364,9 @@ if not log_df.empty:
                     ws = get_sheets_worksheet()
                     sheet_row = sel_idx + 2  # +1 for header, +1 for 1-based index
                     result_col = LOG_COLUMNS.index("actual_result") + 1
-                    ws.update_cell(sheet_row, result_col, int(actual))
+                    ws.update_cell(sheet_row, result_col, actual)
                 else:
-                    log_df.at[sel_idx, "actual_result"] = int(actual)
+                    log_df.at[sel_idx, "actual_result"] = actual
                     log_df.to_csv(LOG_PATH, index=False)
                 st.success("Saved.")
             except Exception as e:
