@@ -48,14 +48,13 @@ def init_log_file():
 def get_sheets_worksheet():
     if not SHEETS_AVAILABLE:
         raise RuntimeError("gspread not installed.")
-
-    creds_info = st.secrets["gcp_service_account"]
-
     scopes = [
         "https://www.googleapis.com/auth/spreadsheets",
         "https://www.googleapis.com/auth/drive",
     ]
-    creds = Credentials.from_service_account_info(creds_info, scopes=scopes)
+    creds = Credentials.from_service_account_info(
+        st.secrets["gcp_service_account"], scopes=scopes
+    )
     client = gspread.authorize(creds)
     try:
         sheet = client.open(SHEET_NAME)
@@ -72,8 +71,10 @@ def get_sheets_worksheet():
 
 
 def using_sheets():
+    if not SHEETS_AVAILABLE:
+        return False
     try:
-        return SHEETS_AVAILABLE
+        return "gcp_service_account" in st.secrets
     except Exception:
         return False
 
@@ -119,7 +120,8 @@ def log_prediction(payload, home_country, away_country, data):
             ws.append_row([row.get(c, "") for c in LOG_COLUMNS])
             return
         except Exception as e:
-            st.warning(f"Sheets write failed, saving to local CSV instead: {e}")
+            st.error(f"Sheets write failed: {e}")
+            st.warning("Saving to local CSV instead.")
     with open(LOG_PATH, "a", newline="", encoding="utf-8") as f:
         csv.DictWriter(f, fieldnames=LOG_COLUMNS).writerow(row)
 
@@ -348,13 +350,13 @@ st.download_button(
 
 # Back-fill actual result
 if not log_df.empty:
-    st.markdown("##### THIS IS VERSION 2")
+    st.markdown("##### ✏️ Back-fill an actual match result")
     match_options = (
         log_df["home_country"].astype(str)
         + " vs " + log_df["away_country"].astype(str)
     )
     sel_idx = st.selectbox("Select match", options=range(len(match_options)), format_func=lambda i: match_options.iloc[i])
-    actual = st.selectbox("Actual result", ["", "0", "1", "2"], format_func=lambda x: {"0": "0 - Home Win", "1": "1 - Draw", "2": "2 - Away Win"}.get(x, "Select..."))
+    actual = st.selectbox("Actual result", ["", 0, 1, 2], format_func=lambda x: {0: "0 - Home Win", 1: "1 - Draw", 2: "2 - Away Win"}.get(x, "Select..."))
     if st.button("Save actual result"):
         if actual == "":
             st.warning("Pick an actual result before saving.")
@@ -364,9 +366,9 @@ if not log_df.empty:
                     ws = get_sheets_worksheet()
                     sheet_row = sel_idx + 2  # +1 for header, +1 for 1-based index
                     result_col = LOG_COLUMNS.index("actual_result") + 1
-                    ws.update_cell(sheet_row, result_col, actual)
+                    ws.update_cell(sheet_row, result_col, int(actual))
                 else:
-                    log_df.at[sel_idx, "actual_result"] = actual
+                    log_df.at[sel_idx, "actual_result"] = int(actual)
                     log_df.to_csv(LOG_PATH, index=False)
                 st.success("Saved.")
             except Exception as e:
