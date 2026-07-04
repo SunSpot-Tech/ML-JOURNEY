@@ -7,14 +7,14 @@ import os
 
 app = FastAPI(
     title="Soccer Match Prediction API",
-    description="Predicts match outcomes (Home Win, Draw, Away Win) using a trained RandomForest model.",
-    version="1.0.0"
+    description="Predicts match outcomes (Home Win, Draw, Away Win) using a trained XGBoost model.",
+    version="2.0.0"
 )
 
 # ---------------------------------------------------------------------------
 # Load model on startup
 # ---------------------------------------------------------------------------
-MODEL_PATH = os.getenv("MODEL_PATH", "Soccer_Prediction.pkl")
+MODEL_PATH = os.getenv("MODEL_PATH", "Football_Model.pkl")
 
 try:
     model = joblib.load(MODEL_PATH)

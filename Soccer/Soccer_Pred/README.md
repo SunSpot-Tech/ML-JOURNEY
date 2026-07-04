@@ -1,6 +1,6 @@
 # Soccer Match Prediction API
 
-FastAPI wrapper around the trained `Soccer_Prediction.pkl` RandomForest model from `betting.ipynb`.
+FastAPI wrapper around the trained `Football_Model.pkl` XGBoost model from `betting.ipynb`.
 
 ---
 
@@ -10,7 +10,7 @@ FastAPI wrapper around the trained `Soccer_Prediction.pkl` RandomForest model fr
 .
 ├── main.py                          # FastAPI application
 ├── requirements.txt                 # Python dependencies
-├── Soccer_Prediction.pkl            # Trained model (you generate this from the notebook)
+├── Football_Model.pkl            # Trained model (you generate this from the notebook)
 └── soccer_match_dataset_1000_balanced.csv  # (only needed to retrain)
 ```
 
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ### 2. Make sure the model file is present
 Run the notebook (`betting.ipynb`) through to the `joblib.dump` cell so that
-`Soccer_Prediction.pkl` is saved in the same directory as `main.py`.
+`Football_Model.pkl` is saved in the same directory as `main.py`.
 
 ### 3. Run the API
 ```bash
@@ -54,7 +54,7 @@ Check whether the API is running and the model is loaded.
 {
   "status": "ok",
   "model_loaded": true,
-  "model_path": "Soccer_Prediction.pkl"
+  "model_path": "Football_Model.pkl"
 }
 ```
 
@@ -114,11 +114,11 @@ Returns the ordered list of all 21 input features.
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `MODEL_PATH` | `Soccer_Prediction.pkl` | Path to the saved `.pkl` model file |
+| `MODEL_PATH` | `Football_Model.pkl` | Path to the saved `.pkl` model file |
 
 Example:
 ```bash
-MODEL_PATH=/models/Soccer_Prediction.pkl uvicorn main:app
+MODEL_PATH=/models/Football_Model.pkl uvicorn main:app
 ```
 
 ---
@@ -126,7 +126,7 @@ MODEL_PATH=/models/Soccer_Prediction.pkl uvicorn main:app
 ## Deploying to Render
 
 1. Push `main.py` and `requirements.txt` to a GitHub repo.
-2. Add your `Soccer_Prediction.pkl` to the repo (or load it from a cloud bucket).
+2. Add your `Football_Model.pkl` to the repo (or load it from a cloud bucket).
 3. On Render → **New Web Service** → connect the repo.
 4. Set **Start command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
 5. Deploy.
