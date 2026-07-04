@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 import joblib
 import numpy as np
@@ -10,7 +11,12 @@ app = FastAPI(
     description="Predicts match outcomes (Home Win, Draw, Away Win) using a trained XGBoost model.",
     version="2.0.0"
 )
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],   # or your frontend URL
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # ---------------------------------------------------------------------------
 # Load model on startup
 # ---------------------------------------------------------------------------
