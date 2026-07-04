@@ -118,10 +118,13 @@ def log_prediction(payload, home_country, away_country, data):
         try:
             ws = get_sheets_worksheet()
             ws.append_row([row.get(c, "") for c in LOG_COLUMNS])
+            st.success("✅ Logged to Google Sheets.")
             return
         except Exception as e:
             st.error(f"Sheets write failed: {e}")
             st.warning("Saving to local CSV instead.")
+    else:
+        st.info("ℹ️ Sheets not configured — saving to local CSV.")
     with open(LOG_PATH, "a", newline="", encoding="utf-8") as f:
         csv.DictWriter(f, fieldnames=LOG_COLUMNS).writerow(row)
 
