@@ -42,7 +42,7 @@ FEATURE_COLS = [
 
 @st.cache_data
 def load_data():
-    features = pd.read_csv("soil_signal/Lagos_features.csv")
+    features = pd.read_csv("soil_signal/lagos_features.csv")
     labels = pd.read_csv("lagos_flood_labels.csv")
     df = features.merge(labels[["zone", "source_summary"]], on="zone", how="left")
     df["lat"] = df["zone"].map(lambda z: COORDS[z][0])
