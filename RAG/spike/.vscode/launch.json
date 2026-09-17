@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run: ingest.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ingest.py",
+      "args": [
+        "--file", "data/nuprc_upstream_petroleum_safety_regulations_2022.txt",
+        "--act", "Upstream Petroleum Safety Regulations 2022",
+        "--sector", "oil_and_gas",
+        "--source-url", "https://www.nuprc.gov.ng/wp-content/uploads/2022/08/Upstream-Petroleum-Safety-Regulations.pdf",
+        "--out", "data/chunks.json"
+      ],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Run: retriever.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/retriever.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Run: agent.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/agent.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

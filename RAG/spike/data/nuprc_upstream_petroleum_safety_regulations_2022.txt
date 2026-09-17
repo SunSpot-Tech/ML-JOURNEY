@@ -1,0 +1,141 @@
+SOURCE: Upstream Petroleum Safety Regulations, 2022 (Nigerian Upstream Petroleum Regulatory Commission, under the Petroleum Industry Act)
+URL: https://www.nuprc.gov.ng/wp-content/uploads/2022/08/Upstream-Petroleum-Safety-Regulations.pdf
+
+PART I - DUTIES OF COMPANIES
+
+1 - A Company to whom these Regulations apply shall:
+(a) appoint, in writing, a Manager who shall take continual charge of all operations authorized by the Commission Chief Executive. [Appoint Manager]
+(b) notify the Commission Chief Executive within 72 hours in writing, of an appointment made under sub-paragraph (a) of this regulation and of any subsequent change in the appointment;
+(c) provide, for its personnel, sufficient safety equipment and adequate Personal Protective Equipment (PPE), of internationally approved types; [Provide PPE]
+(d) ensure that all personal protective equipment is judiciously used and maintained in serviceable condition at all times;
+(e) provide firefighting and first aid equipment at the site of every well being drilled or worked over, flow station, or any installation handling crude oil, natural gas, LPG or any other petroleum products in accordance with good oil & gas operating practice and to the satisfaction of the Commission Chief Executive; [Provide Fire Fighting and First Aid Equipment]
+(f) provide for every operation clear, comprehensive, safe and practical operational procedures and guidelines for its personnel; [Provide Procedures and Guidelines]
+(g) develop good health protection and promotion program for its personnel, and mandate all its contractors to take similar actions; [Protect Health of Personnel]
+(h) ensure that every contract specifies in unambiguous words, the responsibilities of contractors with regards to safety of operations; [Define Responsibilities of Contractors]
+(i) develop and maintain contingency procedures and measures for the safety of personnel and equipment in an emergency; [Provide Contingency]
+(j) develop and update an integrated emergency plan for the management of all credible forms of hazardous events and accident situations that are likely to occur and ensure drills are carried out periodically. [Plan For Emergencies]
+
+2 - In the implementation of facility/equipment design, engineering, procurement, construction, modification, upgrade, hookup, commissioning or decommissioning, the Company shall:-
+(a) carry out comprehensive Safety Studies including hazard and risk analysis of the project with the Commission in accordance with relevant guidelines, API recommended practice, other internationally accepted procedures and documented standards of the Company where applicable. [Conduct Safety Studies]
+(b) ensure that all Major Accident Hazards associated with the project have been identified, recorded, analysed and reduced to As Low As Reasonably Practicable. [Bring MAHs to ALARP]
+(c) ensure that every safety, emergency and communication systems conform to acceptable standards and specifications in the oil and gas industry. [Conform To Standards]
+(d) ensure that the Commission participates in all technical safety studies, technical safety audits, critical equipment inspections and tests or other activities as may be determined by the Commission Chief Executive. [Ensure Commission's Participation In Safety Studies and Test]
+(e) ensure that Pre-Startup Safety Audit is conducted, and approval is obtained from the Commission Chief Executive prior to commissioning and/or start-up of hydrocarbon handling facilities. [Ensure PSSA is carried out]
+(f) ensure that every installation or facility has a valid Safety Case duly approved by the Commission Chief Executive and comply with relevant guidelines issued from time to time by the Commission for that purpose. [Develop Safety Cases]
+(g) ensure that every facility has up-to-date Obsolescence Management Plan and every critical equipment or system has up-to-date Obsolescence Risk Register which shall be approved and audited from time to time by the Commission and shall comply with guidelines, directives or requirements issued by the Commission from time to time. [Ensure all facilities have up-to-date OMP and ORR]
+(h) ensure that every ageing facility has a Life Extension Plan which shall be approved by the Commission Chief Executive and shall comply with guidelines, directives or requirements issued by the Commission from time to time. [Develop Life Extension Plans for ageing facilities]
+(i) ensure that all facility development, modification, upgrade, debottlenecking, refurbishment or relocation conform to the requirements of IEC 61511 or similar standards with respect to Functional Safety. [Ensure conformity to Functional Safety requirements]
+
+3 - The Company shall ensure that:
+(a) it has a well-defined decommissioning and abandonment plan for all its oil and gas handling facilities.
+(b) its decommissioning and abandonment plan complies with all current regulations, guidelines and procedures for abandonment and decommissioning of facilities in the Nigerian Oil and Gas Industry and is approved by the Commission Chief Executive.
+(c) the implementation of the plan shall be undertaken in a manner that ensures that the plugging of hole in the earth's surface, removal and disposal of equipment and facility used with or in connection with the operation is done safely and in a manner that ensures that the environment continues to remain safe.
+(d) the use of novel well plugging and abandonment technologies shall go through the Commission's technology qualification process and be approved prior to deployment in the field.
+[Prepare For Abandonment And Decommissioning]
+
+4 - A Company that:
+(a) fails to comply or ensure compliance with any of the provisions of this part of these Regulations
+(b) makes a false declaration to the Commission Chief Executive or willfully furnishes information so required which is in any respect false or insufficient
+is liable to a penalty issued by the Commission Chief Executive not exceeding Three Hundred Thousand United States Dollars (US$300,000.00), or imprisonment for a term not exceeding 5 years or to both such penalty and imprisonment.
+[Offences Under This Part]
+
+PART II - DUTIES OF MANAGERS
+
+5 - It shall be the duty of every Manager appointed pursuant to these Regulations to:-
+(a) ensure that the provisions of this part of these Regulations are fully complied with.
+(b) ensure that all rules, procedures and guidelines pursuant to provision 1(f) of these Regulations are fully understood and complied with.
+(c) ensure the overall safety of People, Processes, Operations and Equipment associated with the project under his management.
+[Ensure compliance with Regulations and safety of People, Processes, Operations and Equipment]
+
+9 - The Manager shall ensure that:- [Protection Against Injury]
+(a) sufficient safety equipment, that meet international standards, are provided for the work force; and
+(b) every personal protective equipment is judiciously used and maintained in serviceable condition at all times.
+(c) appropriate barriers and risk reduction measures are in place to ensure that personnel exposure to hazards are reduced to As Low As Reasonably Practicable. The risk reduction measures for all hazards shall comply with hierarchy of hazard control philosophy.
+
+11 - The Manager shall ensure that: [Noise Abatement]
+(a) Personnel are provided with the appropriate hearing protection if noise levels are equal to or greater than 85 dBA for an 8-hour Time Weighted Average (TWA).
+(b) No person shall, unless appropriately protected, be exposed to noise level equal to 115 dBA or greater for any length of time, notwithstanding that the TWA is below 85 dBA action level.
+(c) The sound pressure level at the edge of the nearest residential area shall not exceed 50 dBA at night.
+(d) Annual audiometric tests are conducted for all personnel working in high noise areas and results made available on demand to the Commission.
+
+13 - All work at height, scaffolding, rope assess, and other similar operations shall conform to international recognised standards such as technical guidance for national access & scaffolding confederation (NASC) and comply with the current guidelines and requirements for work at height in the Nigerian oil and gas industry as approved by the Commission Chief Executive. [Work at Height]
+
+17 - (a) The blow-out preventer (BOP) installation shall be substantially constructed, securely fastened in place and be of adequate rating for the expected maximum shut-in surface pressure based on the anticipated downhole pressure. [Blowout Prevention]
+(b) Well controlled drills shall be conducted once a week under a variety of operating conditions and, in addition, BOP tests shall be conducted during rig operating when the BOP is installed on the wellhead.
+(c) Emergency procedures and individual duties shall be fully understood and displayed conspicuously around the rig.
+
+28 - (d) Every compressed air system/receiver shall be-
+(i) drained of liquid every day; and
+(ii) tested hydraulically to the recommended pressure:-
+(a) when the internal surface of the receiver cannot be inspected,
+(b) in any other case, not less than once in every 60 months.
+(g) Every relief valve and process safety valve shall be inspected at least once in every 30 months or at such shorter intervals as shall be necessary to maintain them in satisfactory conditions.
+
+31 - (a) Every pressure vessel, equipment and associated piping used in oil field installations shall meet internationally recognised standards for monitoring and controlling corrosion, with respect to their design, construction, routine inspection, testing and maintenance. E.g., the National Association of Corrosion Engineers (NACE) or other recognised equivalent standards. [Standard for pressure vessels etc.]
+(b)(i) non-destructive testing, including Ultrasonic Thickness Measurement (UTM), shall be carried out at intervals not exceeding once in 5 years to check the rate of both internal and external corrosion and erosion.
+
+33 - No workman shall enter into a confined/semi-confined space or a hydrocarbon storage tank for cleaning or inspection, except: [Entering Tanks, confined/semi-confined spaces]
+(a) that person has undergone appropriate training and risk assessment for that purpose.
+(b) the person shall not enter without proper breathing apparatus.
+(c) the confined/semi-confined space or a hydrocarbon storage tank shall be continuously ventilated and tested to safe levels of hydrocarbon and harmful gases.
+
+40 - (a) Every pipeline used in an operation shall be designed, constructed and maintained- [Pipeline]
+(i) in accordance with the relevant provisions of the ANSI, ASME, DNV, NACE and other applicable national and international standards and good oil & gas field practices, and
+(ii) in compliance with the guidelines issued by the Commission Chief Executive.
+(d) Pipelines conveying hydrocarbons shall be designed with pigging facility to allow pigging operation to be conducted at intervals not exceeding 5 years.
+(f) Pipeline pressure testing shall be carried out at intervals of not more than five years at pressure not less than 125 percent of the maximum operating pressure.
+(i) Cathodic protection potential survey shall be carried out on all buried pipelines at intervals of not more than 24 months to ensure that every section of the protected line attains a negative potential of not less than 850mV with reference to copper/copper sulphate reference electrode.
+
+44 - (a) The Manager has principal responsibility for the safety of the personnel, including his contractors and shall ensure that sufficient safety and risk awareness training and certifications are given to personnel and contractors prior to their deployment at onshore or offshore locations; [Reporting of accidents]
+(b) the Manager shall establish a system to ensure that personnel report all HSE incidents including near misses at a well site, hydrocarbon handling facilities or in connection with an operation under a licence or lease without any repercussion to the persons making the report unless there is willful misconduct, negligence or criminal intent;
+(c) the reported incidents shall be properly documented, analysed and reviewed, learnings disseminated to personnel and follow up actions taken to prevent reoccurrence. The records of the HSE incidents and follow up actions shall be made available on demand;
+(d) the occurrence of the following incidents related to a well site or hydrocarbon handling facility or in connection with an operation shall be reported to Commission within 24 hours of the occurrence:
+i. the death of a person
+ii. fire or explosion
+iii. an accident resulting in serious injury,
+iv. high-potential event (HPE) that could have resulted in serious injury or death.
+(f) For the purpose of this regulation "serious injury" means -
+(i) a fractured skull, pelvis, thigh, spine, arm, forearm or leg;
+(ii) a dislocated shoulder hip, knee or spine;
+(iii) the amputation of an arm or hand, or of one finger or more on the same hand, or of a leg or a foot;
+(iv) the loss of the sight of an eye or chemical or hot metal burn to the eye or any penetrating injury to the eye,
+(v) any other serious bodily injury including internal hemorrhage, burns and asphyxia, where the injury is likely to endanger life, cause permanent incapacity or substantially impair efficiency.
+
+60 - (a) The Manager shall provide appropriate equipment and systems for immediate detection and effective control of toxic and or combustible gases. [Detection and Management of toxic/combustible gasses]
+(b) The occurrence of hydrogen sulphide in any gas or oil well shall be reported to the Commission within 24 hours of the occurrence.
+(c) Tests shall be made immediately after the occurrence referred to in paragraph (2) of this regulation to determine the concentration of the hydrogen sulphide in the gas and steps shall be taken to immediately protect all persons working on the well.
+(e) The precautions taken shall include the provision of an adequate number of blowers and self-contained air or compressed air type breathing apparatuses at the well and on any subsequent well in the same field or on any other well likely to penetrate the hydrogen sulphide bearing formation.
+
+62 - A Manager who fails to comply or ensure compliance with any of the provisions of this part of these Regulations, or makes a false declaration to the Commission Chief Executive or willfully furnishes information which is false or insufficient, is liable to a penalty issued by the Commission Chief Executive not exceeding N10,000,000 or imprisonment for a term not exceeding 5 years or to both such penalty and imprisonment. [Offences under this Part]
+
+PART III - DUTIES OF PERSONNEL
+
+64 - No person under the age of 18 years shall be engaged to work at a dangerous area. [Exclusion of children from dangerous area]
+
+66 - (a) Every person, working on a drilling rig, flow station, depot, pump station, tank farm, or other installation handling petroleum, shall wear personal protective equipment that will provide adequate protection against credible hazards and is in line with good oil field practice. [Safety belts, etc.]
+(b) Every person working at a fixed workstation above the derrick floor of a drilling rig or other high-rise installation or at a height above six (6) feet shall wear appropriate fall protection devices.
+
+68 - (a) No person shall remove or render ineffective any safeguard while the machinery relating to it is in operation. [Machinery Safeguards]
+(c) LOTO ''log out tag out'' system or an alternative effective protection system consistent with good oil & gas field practice shall be applied to prevent unsafe inspection or maintenance of machinery.
+
+71 - No person who is at a well or in an installation where petroleum is being handled shall, during the period he is on duty, sleep, or consume an alcoholic liquor or a hard drug, or be admitted for duty while under the influence of alcoholic liquor or hard drug. [Sleeping, drinking etc. on duty]
+
+74 - Any person who fails to comply or ensure compliance with any of the provisions of this part of these Regulations, or makes a false declaration, is liable to a penalty issued by the Commission Chief Executive not exceeding N1,000,000 or imprisonment for a term not exceeding 2 years or to both such penalty and imprisonment. [Offences under this Part]
+
+PART IV - DIVING OPERATIONS: RESPONSIBILITIES AND REQUIREMENTS
+
+75 - It shall be the duty of the Manager to safely handle all diving operations and the activities of his diving contractors, to ensure that, as far as is reasonably practicable, the activities are carried out in accordance with all relevant local legislation, codes, standards and other international safe diving practice. [Diving Operations]
+
+78 - A person shall not take part in a diving operation as a diver unless he has undertaken formal training to ensure that he is competent to use the plant equipment provided for the operation, and holds a valid certificate of medical fitness to dive issued by a doctor in Nigeria who has trained in Hyperbaric and Diving Medicine, and who is accredited by the Commission. [Divers]
+
+81 - A person who fails to comply or ensure compliance with any of the provisions of this part of these Regulations, or makes a false declaration, is liable to a penalty issued by the Commission Chief Executive not exceeding N1,000,000.00 (one million naira) or imprisonment for a term not exceeding 2 years or to both such penalty and imprisonment. [Offences under this part]
+
+PART V - MISCELLANEOUS
+
+82 - Where an accident is reported to the Commission under section 44 of these Regulations, the Commission Chief Executive may order an investigation and/or inquiry into the circumstances surrounding the accident. [Inquiries into accidents]
+
+86 - A person who contravenes any provision of these Regulations for which no penalty is provided is liable to a penalty not exceeding Two Hundred and Fifty Thousand dollars (USD250,000) issued by the Commission Chief Executive or upon summary conviction imprisonment for a term not exceeding 2 years or to both such penalty and imprisonment. [Offences]
+
+87 - Where under the provision of these Regulations a duty is imposed on a person, the onus of proving that all reasonable steps have been taken to fulfill that duty shall lie on the person charged with the breach of duty. [Burden of proof]
+
+90 - These Regulations may be cited as the Upstream Petroleum Safety Regulations 2022. [Citation]

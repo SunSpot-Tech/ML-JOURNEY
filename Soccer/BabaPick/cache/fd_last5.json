@@ -1,0 +1,1860 @@
+{
+  "EPL": {
+    "Arsenal": [
+      {
+        "date": "2026-08-21",
+        "goals_scored": 3.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-31",
+        "goals_scored": 1.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-06",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Aston Villa": [
+      {
+        "date": "2026-08-23",
+        "goals_scored": 0.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-31",
+        "goals_scored": 0.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Bournemouth": [
+      {
+        "date": "2026-08-23",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Brentford": [
+      {
+        "date": "2026-08-22",
+        "goals_scored": 3.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-30",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Brighton": [
+      {
+        "date": "2026-08-23",
+        "goals_scored": 4.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-30",
+        "goals_scored": 3.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Chelsea": [
+      {
+        "date": "2026-08-24",
+        "goals_scored": 3.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-30",
+        "goals_scored": 4.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-06",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Coventry City": [
+      {
+        "date": "2026-08-21",
+        "goals_scored": 0.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 0.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Crystal Palace": [
+      {
+        "date": "2026-08-22",
+        "goals_scored": 0.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-28",
+        "goals_scored": 1.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 3.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Everton": [
+      {
+        "date": "2026-08-22",
+        "goals_scored": 2.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-06",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Fulham": [
+      {
+        "date": "2026-08-24",
+        "goals_scored": 2.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-30",
+        "goals_scored": 0.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 2.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Hull City": [
+      {
+        "date": "2026-08-22",
+        "goals_scored": 2.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Ipswich Town": [
+      {
+        "date": "2026-08-22",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-30",
+        "goals_scored": 2.0,
+        "goals_conceded": 5.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-04",
+        "goals_scored": 0.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Leeds United": [
+      {
+        "date": "2026-08-22",
+        "goals_scored": 1.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-30",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Liverpool": [
+      {
+        "date": "2026-08-23",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-04",
+        "goals_scored": 2.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Manchester City": [
+      {
+        "date": "2026-08-23",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-28",
+        "goals_scored": 4.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Manchester Utd": [
+      {
+        "date": "2026-08-22",
+        "goals_scored": 0.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-30",
+        "goals_scored": 5.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-06",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Newcastle": [
+      {
+        "date": "2026-08-23",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 2.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Nottingham": [
+      {
+        "date": "2026-08-22",
+        "goals_scored": 0.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Sunderland": [
+      {
+        "date": "2026-08-22",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-30",
+        "goals_scored": 1.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Tottenham": [
+      {
+        "date": "2026-08-22",
+        "goals_scored": 0.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 0.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ]
+  },
+  "Championship": {
+    "Birmingham City": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-28",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-06",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Blackburn": [
+      {
+        "date": "2026-08-14",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Bolton": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 0.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 2.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Bristol City": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 0.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 3.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Burnley": [
+      {
+        "date": "2026-08-16",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-23",
+        "goals_scored": 1.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-02",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Cardiff City": [
+      {
+        "date": "2026-08-17",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-02",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Charlton Athletic": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-02",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Derby County": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 0.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 2.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Lincoln City": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 1.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Middlesbrough": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 3.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-02",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Millwall": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 2.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 3.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 5.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-02",
+        "goals_scored": 0.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 4.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Norwich City": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 0.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 4.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 0.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 3.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Portsmouth": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 1.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 3.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 0.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 2.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Preston": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 1.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 0.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 1.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "QPR": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 3.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-02",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Sheffield United": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 3.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Southampton": [
+      {
+        "date": "2026-08-16",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 3.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 5.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Stoke City": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 1.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 1.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 4.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Swansea City": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 3.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 2.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Watford": [
+      {
+        "date": "2026-08-16",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 0.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "West Brom": [
+      {
+        "date": "2026-08-15",
+        "goals_scored": 2.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-23",
+        "goals_scored": 3.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-02",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "West Ham": [
+      {
+        "date": "2026-08-16",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 4.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 3.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Wolves": [
+      {
+        "date": "2026-08-14",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 3.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-08-29",
+        "goals_scored": 4.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-01",
+        "goals_scored": 2.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-06",
+        "goals_scored": 2.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Wrexham": [
+      {
+        "date": "2026-08-17",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-22",
+        "goals_scored": 1.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-08-28",
+        "goals_scored": 1.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-02",
+        "goals_scored": 3.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ]
+  },
+  "Bundesliga": {
+    "Augsburg": [
+      {
+        "date": "2026-08-30",
+        "goals_scored": 3.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-06",
+        "goals_scored": 4.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Bayern Munich": [
+      {
+        "date": "2026-08-28",
+        "goals_scored": 5.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Dortmund": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 2.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 3.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Elversberg": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 3.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 4.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Frankfurt": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 3.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-06",
+        "goals_scored": 1.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Freiburg": [
+      {
+        "date": "2026-08-30",
+        "goals_scored": 4.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Gladbach": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 0.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 3.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Hamburger SV": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 0.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-06",
+        "goals_scored": 0.0,
+        "goals_conceded": 5.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Hoffenheim": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 2.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 2.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Köln": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 3.0,
+        "goals_conceded": 2.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-04",
+        "goals_scored": 1.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Leverkusen": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 2.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 4.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Mainz 05": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-06",
+        "goals_scored": 5.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Paderborn 07": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "RB Leipzig": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 3.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 1.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Schalke 04": [
+      {
+        "date": "2026-08-30",
+        "goals_scored": 0.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 0.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      }
+    ],
+    "Stuttgart": [
+      {
+        "date": "2026-08-28",
+        "goals_scored": 1.0,
+        "goals_conceded": 5.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-04",
+        "goals_scored": 4.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ],
+    "Union Berlin": [
+      {
+        "date": "2026-08-29",
+        "goals_scored": 3.0,
+        "goals_conceded": 3.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "D"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 0.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      }
+    ],
+    "Werder Bremen": [
+      {
+        "date": "2026-08-30",
+        "goals_scored": 1.0,
+        "goals_conceded": 4.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "L"
+      },
+      {
+        "date": "2026-09-05",
+        "goals_scored": 3.0,
+        "goals_conceded": 1.0,
+        "sot": 4.0,
+        "shots_off": 3.0,
+        "result": "W"
+      }
+    ]
+  }
+}

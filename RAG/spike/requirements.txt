@@ -1,0 +1,2 @@
+scikit-learn>=1.3
+sentence-transformers>=2.2  # only needed for embedding_retriever.py
